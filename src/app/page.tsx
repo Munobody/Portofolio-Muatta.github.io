@@ -1,5 +1,6 @@
 "use client";
 import About from "@/components/About";
+import Experience from "@/components/Experience";
 import TechnologiesCard from "@/components/Icon";
 import Navbar from "@/components/Navbar";
 import Card from "@/components/utils/Card";
@@ -140,8 +141,10 @@ export default function Home() {
           </div>
         </div>
       </section>
-      {/* Galeri Foto */}
       <section className="w-full mt-12">
+        <Experience/>
+      </section>
+      <section className="w-full mt-12 mb-12"> {/* tambahkan mb-12 */}
         <h2 className="text-2xl font-bold mb-4 text-center text-white">
           Foto Pengalaman & Hobi
         </h2>
@@ -163,6 +166,6 @@ export default function Home() {
           />
         </div>
       </section>
-    </>
+    </>   
   );
 }

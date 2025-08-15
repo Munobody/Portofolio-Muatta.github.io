@@ -11,11 +11,7 @@ export default function About() {
     >
       <h3 className="text-xl font-semibold mb-2">Tentang Saya</h3>
       <p className="text-base leading-relaxed">
-        Saya adalah seorang Front-End Developer yang antusias membangun
-        antarmuka web interaktif dan modern. Berpengalaman menggunakan
-        React, Next.js, dan Tailwind CSS. Saya senang belajar hal baru,
-        berkolaborasi dalam tim, dan selalu berusaha memberikan solusi
-        terbaik untuk setiap project yang saya kerjakan.
+A fresh graduate Software Developer with a Bachelor's degree in Informatics from Syiah Kuala University. Passionate about creating innovative solutions and eager to contribute to meaningful projects. Currently seeking opportunities to apply my skills and knowledge in a professional environment.
       </p>
     </Border>
   );
