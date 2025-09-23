@@ -34,9 +34,9 @@ export default function RootLayout({
           <DarkVeil />
         </div>
         {/* Navbar di tengah atas, fixed */}
-        <Navbar className="w-full flex justify-center items-center fixed top-0 left-0 z-50 bg-transparent" />
+        {/* <Navbar className="w-full flex justify-center items-center fixed top-0 left-0 z-50 bg-transparent" /> */}
         {/* Main Content, beri padding top agar tidak tertutup navbar */}
-        <main className="flex-1 w-full flex flex-col items-center px-4 sm:px-8 pt-28 pb-24">
+        <main className="flex-1 w-full flex flex-col items-center sm:px-8  pb-24">
           {children}
         </main>
         {/* Footer */}
