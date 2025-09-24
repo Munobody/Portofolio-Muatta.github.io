@@ -1,6 +1,6 @@
 
 import React, { useEffect, useRef, useCallback, useMemo } from "react";
-import "/Users/muatta/Documents/Muatta/Pribadi/Portofolio/portofolio-muatta/src/app/css/ProfileCardComponent.css";
+import '../../app/css/ProfileCardComponent.css'
 
 interface ProfileCardProps {
   avatarUrl: string;
