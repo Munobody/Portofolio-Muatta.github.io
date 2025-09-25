@@ -62,10 +62,10 @@ export default function ProfileCenterLayout() {
     },
     {
       id: "2", 
-      title: "Coding Flow",
-      artist: "Focus Music",
-      src: "/audio/coding-flow.mp3",
-      cover: "/assets/music-cover2.jpg"
+      title: "ILYSB",
+      artist: "LANY",
+      src: "/audio/LANY-ILYSB.mp3",
+      cover: "/assets/atta.jpeg"
     },
     {
       id: "3",
