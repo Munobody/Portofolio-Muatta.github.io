@@ -55,25 +55,25 @@ export default function ProfileCenterLayout() {
   const musicTracks = [
     {
       id: "1",
+      title: "About You",
+      artist: "The 1975",
+      src: "/audio/The 1975 - About You.mp3",
+      cover: "/assets/AboutYou.jpeg"
+    },
+    {
+      id: "2",
       title: "Someone to Stay",
       artist: "Vancouver Sleep Clinic - ",
       src: "/audio/Vancouver Sleep Clinic - Someone to Stay.mp3",
       cover: "/assets/atta.jpeg"
     },
     {
-      id: "2", 
+      id: "3", 
       title: "ILYSB",
       artist: "LANY",
       src: "/audio/LANY-ILYSB.mp3",
       cover: "/assets/atta.jpeg"
     },
-    {
-      id: "3",
-      title: "Creative Mind",
-      artist: "Ambient Sound",
-      src: "/audio/creative-mind.mp3",
-      cover: "/assets/music-cover3.jpg"
-    }
   ];
 
   return (
